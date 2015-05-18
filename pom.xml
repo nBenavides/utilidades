@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ec.com.todocompu</groupId>
-	<artifactId>shrimputils</artifactId>
+	<artifactId>shrimpUtils</artifactId>
 	<version>0.0.1</version>
 	<name>Utilidades</name>
 
@@ -35,12 +35,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring-version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<version>9.3-1103-jdbc41</version>
 		</dependency>
 
 		<dependency>
