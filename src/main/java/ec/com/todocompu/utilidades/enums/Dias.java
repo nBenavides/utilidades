@@ -1,4 +1,4 @@
-package ec.com.todocompu.shrimputils.enums;
+package ec.com.todocompu.utilidades.enums;
 
 public enum Dias {
 	LUNES(1, "LUNES"), MARTES(2, "MARTES"), MIERCOLES(3, "MIERCOLES"), JUEVES(

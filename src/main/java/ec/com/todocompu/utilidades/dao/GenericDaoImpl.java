@@ -1,4 +1,4 @@
-package ec.com.todocompu.shrimputils.dao;
+package ec.com.todocompu.utilidades.dao;
 
 import java.io.Serializable;
 import java.util.List;
