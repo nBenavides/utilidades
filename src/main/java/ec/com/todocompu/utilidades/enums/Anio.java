@@ -1,19 +1,15 @@
 package ec.com.todocompu.utilidades.enums;
 
-public enum Dias {
+public enum Anio {
 	
-	D1(1, "LUNES"), 
-	D2(2, "MARTES"), 
-	D3(3, "MIERCOLES"), 
-	D4(4, "JUEVES"), 
-	D5(5, "VIERNES"), 
-	D6(6, "SABADO"), 
-	D7(7, "DOMINGO");
+	A2013(2013, "2013"), 
+	A2014(2014, "2014"), 
+	A2015(2015, "2015");
 
 	private final Integer id;
 	private final String nombre;
 
-	private Dias(Integer id, String nombre) {
+	private Anio(Integer id, String nombre) {
 		this.id = id;
 		this.nombre = nombre;
 	}
