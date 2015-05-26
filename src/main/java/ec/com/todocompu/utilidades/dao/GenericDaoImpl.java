@@ -140,10 +140,11 @@ public class GenericDaoImpl<T, K extends Serializable> implements
 										.valueOf(valoresConsulta[i]).length() >= 3)) {
 							valoresConsulta[i] = String.valueOf(
 									valoresConsulta[i]).toUpperCase();
-						} else {
-							validacion = true;
-							break;
 						}
+						// else {
+						// validacion = true;
+						// break;
+						// }
 					}
 					query.setParameter(String.valueOf(i + 1),
 							valoresConsulta[i]);

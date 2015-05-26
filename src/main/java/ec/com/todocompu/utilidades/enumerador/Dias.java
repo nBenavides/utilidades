@@ -1,4 +1,4 @@
-package ec.com.todocompu.utilidades.enums;
+package ec.com.todocompu.utilidades.enumerador;
 
 public enum Dias {
 	
