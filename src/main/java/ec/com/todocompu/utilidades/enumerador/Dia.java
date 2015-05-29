@@ -1,6 +1,6 @@
 package ec.com.todocompu.utilidades.enumerador;
 
-public enum Dias {
+public enum Dia {
 	
 	D1(1, "LUNES"), 
 	D2(2, "MARTES"), 
@@ -13,7 +13,7 @@ public enum Dias {
 	private final Integer id;
 	private final String nombre;
 
-	private Dias(Integer id, String nombre) {
+	private Dia(Integer id, String nombre) {
 		this.id = id;
 		this.nombre = nombre;
 	}
