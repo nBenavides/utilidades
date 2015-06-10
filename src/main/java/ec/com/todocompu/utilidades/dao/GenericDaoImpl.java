@@ -128,24 +128,24 @@ public class GenericDaoImpl<T, K extends Serializable> implements
 		if (valoresConsulta != null)
 			for (int i = 0; i < valoresConsulta.length; i++)
 				if (valoresConsulta[i] != null) {
-					if (valoresConsulta[i] instanceof String) {
-						if ((String.valueOf(valoresConsulta[i]).startsWith("%")
-								&& String.valueOf(valoresConsulta[i]).endsWith(
-										"%") && String.valueOf(
-								valoresConsulta[i]).length() >= 5)
-								|| (!String.valueOf(valoresConsulta[i])
-										.startsWith("%")
-										&& !String.valueOf(valoresConsulta[i])
-												.endsWith("%") && String
-										.valueOf(valoresConsulta[i]).length() >= 3)) {
-							valoresConsulta[i] = String.valueOf(
-									valoresConsulta[i]).toUpperCase();
-						}
-						// else {
-						// validacion = true;
-						// break;
-						// }
-					}
+					// if (valoresConsulta[i] instanceof String) {
+					// if ((String.valueOf(valoresConsulta[i]).startsWith("%")
+					// && String.valueOf(valoresConsulta[i]).endsWith(
+					// "%") && String.valueOf(
+					// valoresConsulta[i]).length() >= 5)
+					// || (!String.valueOf(valoresConsulta[i])
+					// .startsWith("%")
+					// && !String.valueOf(valoresConsulta[i])
+					// .endsWith("%") && String
+					// .valueOf(valoresConsulta[i]).length() >= 3)) {
+					// valoresConsulta[i] = String.valueOf(
+					// valoresConsulta[i]).toUpperCase();
+					// }
+					// else {
+					// validacion = true;
+					// break;
+					// }
+					// }
 					query.setParameter(String.valueOf(i + 1),
 							valoresConsulta[i]);
 				}
